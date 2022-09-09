@@ -1,4 +1,5 @@
 /* eslint-disable react/react-in-jsx-scope */
+import { Logo } from './logo'
 import './style.css'
 
 export function Footer () {
@@ -8,11 +9,10 @@ export function Footer () {
         <div className="row">
           <div className="col-3 text-left">
             <a href="https://grad.arizona.edu/">
-              <img
-                title="The University of Arizona Graduate College"
-                alt="The University of Arizona Graduate College"
+              <Logo
                 className="img-fluid center-block"
-                src="https://grad.arizona.edu/ui/images/ua_lockups/uagc-lockup-full-blue.png" />
+                variant="full-blue"
+              />
             </a>
           </div>
 

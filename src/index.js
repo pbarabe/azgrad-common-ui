@@ -1,7 +1,9 @@
-import { Header } from './header'
+import { ArizonaBanner } from './azbanner'
 import { Footer } from './footer'
+import { Logo } from './logo'
 
 export {
-  Header,
-  Footer
+  ArizonaBanner,
+  Footer,
+  Logo
 }

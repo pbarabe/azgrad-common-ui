@@ -1,7 +1,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 import './style.css'
 
-export function Header () {
+export function ArizonaBanner () {
   return (
     <header className="bg-red arizona-header" id="header_arizona">
       <div className="container">
