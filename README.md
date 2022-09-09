@@ -1,6 +1,13 @@
-# GRAD Search UI
+# GRAD Common UI Resources
 
-Single stage page to display Google Search results
+Reusable React components, CSS, and JS resources for Graduate College web projects.
+
+## Run the Example
+
+```
+$ npm install
+$ npx parcel src/example/example.html
+```
 
 ## Developed By
 

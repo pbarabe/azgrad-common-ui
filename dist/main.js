@@ -1,3 +1,4 @@
+require("./main.css");
 var $gXNCa$reactjsxruntime = require("react/jsx-runtime");
 
 function $parcel$export(e, n, v, s) {
@@ -6,6 +7,7 @@ function $parcel$export(e, n, v, s) {
 
 $parcel$export(module.exports, "Header", () => $ca8f4e9718e4d0a7$export$8b251419efc915eb);
 $parcel$export(module.exports, "Footer", () => $0c146eb129836503$export$a06f1c675e846f6f);
+
 
 function $ca8f4e9718e4d0a7$export$8b251419efc915eb() {
     return /*#__PURE__*/ (0, $gXNCa$reactjsxruntime.jsx)("div", {
@@ -25,6 +27,7 @@ function $ca8f4e9718e4d0a7$export$8b251419efc915eb() {
         })
     });
 }
+
 
 
 
@@ -228,7 +231,7 @@ function $0c146eb129836503$export$a06f1c675e846f6f() {
                 children: [
                     /*#__PURE__*/ (0, $gXNCa$reactjsxruntime.jsx)("div", {
                         className: "col-6 text-left align-bottom",
-                        children: "\xa9 2021 Arizona Board of Regents on behalf of the University of Arizona"
+                        children: "\xa9 2022 Arizona Board of Regents on behalf of the University of Arizona"
                     }),
                     /*#__PURE__*/ (0, $gXNCa$reactjsxruntime.jsxs)("div", {
                         className: "col-6 text-right",

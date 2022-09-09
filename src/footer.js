@@ -1,3 +1,5 @@
+import './style.css'
+
 export function Footer() {
   return (
     <div className="container py-4">
@@ -104,7 +106,7 @@ export function Footer() {
 
       <div className="row">
         <div className="col-6 text-left align-bottom">
-          © 2021 Arizona Board of Regents on behalf of the University of Arizona
+          © 2022 Arizona Board of Regents on behalf of the University of Arizona
         </div>
         <div className="col-6 text-right">
           <a className="ua-privacy" rel="external" href="https://grad.arizona.edu/equity">Arizona's Commitment to Equity</a>

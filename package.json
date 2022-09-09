@@ -2,13 +2,13 @@
   "name": "common-ui",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.js",
+  "source": [
+    "src/index.js"
+  ],
   "main": "dist/main.js",
   "module": "dist/module.js",
   "scripts": {
     "build": "parcel build",
-    "start": "parcel",
-    "watch": "parcel watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -20,7 +20,8 @@
     "eslint-plugin-n": "^15.2.5",
     "eslint-plugin-promise": "^6.0.1",
     "eslint-plugin-react": "^7.31.2",
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",

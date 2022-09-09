@@ -1,4 +1,6 @@
+import "./main.css";
 import {jsx as $5OpyM$jsx, jsxs as $5OpyM$jsxs} from "react/jsx-runtime";
+
 
 
 function $f3bda47ff53e213e$export$8b251419efc915eb() {
@@ -19,6 +21,7 @@ function $f3bda47ff53e213e$export$8b251419efc915eb() {
         })
     });
 }
+
 
 
 
@@ -222,7 +225,7 @@ function $f76a36a68c34a198$export$a06f1c675e846f6f() {
                 children: [
                     /*#__PURE__*/ (0, $5OpyM$jsx)("div", {
                         className: "col-6 text-left align-bottom",
-                        children: "\xa9 2021 Arizona Board of Regents on behalf of the University of Arizona"
+                        children: "\xa9 2022 Arizona Board of Regents on behalf of the University of Arizona"
                     }),
                     /*#__PURE__*/ (0, $5OpyM$jsxs)("div", {
                         className: "col-6 text-right",
