@@ -3,7 +3,7 @@ import {jsx as $5OpyM$jsx, jsxs as $5OpyM$jsxs} from "react/jsx-runtime";
 
 
 
-function $f3bda47ff53e213e$export$8b251419efc915eb() {
+function $44a8648cf39072e4$export$37dea8c45c59a97() {
     return /*#__PURE__*/ (0, $5OpyM$jsx)("header", {
         className: "bg-red arizona-header",
         id: "header_arizona",
@@ -29,6 +29,29 @@ function $f3bda47ff53e213e$export$8b251419efc915eb() {
 
 
 
+function $41f1eb040c4b4178$export$e6ff31bff12b7ff4(props) {
+    let logo = "";
+    switch(props.variant){
+        case "full-blue":
+            logo = new URL("grad-lockup-full-blue.eb3c8517.png", import.meta.url);
+            break;
+        case "full-white":
+            logo = new URL("grad-lockup-full-white.31320a3a.png", import.meta.url);
+            break;
+        case "blue":
+        default:
+            logo = new URL("grad-lockup-blue.7a681688.png", import.meta.url);
+    }
+    return /*#__PURE__*/ (0, $5OpyM$jsx)("img", {
+        className: props.className || "",
+        alt: props.alt || "Graduate College Logo",
+        title: props.title || "University of Arizona Graduate College",
+        src: logo
+    });
+}
+
+
+
 function $f76a36a68c34a198$export$a06f1c675e846f6f() {
     return /*#__PURE__*/ (0, $5OpyM$jsx)("footer", {
         id: "footer",
@@ -43,11 +66,9 @@ function $f76a36a68c34a198$export$a06f1c675e846f6f() {
                             className: "col-3 text-left",
                             children: /*#__PURE__*/ (0, $5OpyM$jsx)("a", {
                                 href: "https://grad.arizona.edu/",
-                                children: /*#__PURE__*/ (0, $5OpyM$jsx)("img", {
-                                    title: "The University of Arizona Graduate College",
-                                    alt: "The University of Arizona Graduate College",
+                                children: /*#__PURE__*/ (0, $5OpyM$jsx)((0, $41f1eb040c4b4178$export$e6ff31bff12b7ff4), {
                                     className: "img-fluid center-block",
-                                    src: "https://grad.arizona.edu/ui/images/ua_lockups/uagc-lockup-full-blue.png"
+                                    variant: "full-blue"
                                 })
                             })
                         }),
@@ -262,5 +283,6 @@ function $f76a36a68c34a198$export$a06f1c675e846f6f() {
 
 
 
-export {$f3bda47ff53e213e$export$8b251419efc915eb as Header, $f76a36a68c34a198$export$a06f1c675e846f6f as Footer};
+
+export {$44a8648cf39072e4$export$37dea8c45c59a97 as ArizonaBanner, $f76a36a68c34a198$export$a06f1c675e846f6f as Footer, $41f1eb040c4b4178$export$e6ff31bff12b7ff4 as Logo};
 //# sourceMappingURL=module.js.map

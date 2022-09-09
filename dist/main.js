@@ -5,11 +5,12 @@ function $parcel$export(e, n, v, s) {
   Object.defineProperty(e, n, {get: v, set: s, enumerable: true, configurable: true});
 }
 
-$parcel$export(module.exports, "Header", () => $ca8f4e9718e4d0a7$export$8b251419efc915eb);
+$parcel$export(module.exports, "ArizonaBanner", () => $00345242a01dad8f$export$37dea8c45c59a97);
 $parcel$export(module.exports, "Footer", () => $0c146eb129836503$export$a06f1c675e846f6f);
+$parcel$export(module.exports, "Logo", () => $81525ac8bf6fc849$export$e6ff31bff12b7ff4);
 
 
-function $ca8f4e9718e4d0a7$export$8b251419efc915eb() {
+function $00345242a01dad8f$export$37dea8c45c59a97() {
     return /*#__PURE__*/ (0, $gXNCa$reactjsxruntime.jsx)("header", {
         className: "bg-red arizona-header",
         id: "header_arizona",
@@ -35,6 +36,29 @@ function $ca8f4e9718e4d0a7$export$8b251419efc915eb() {
 
 
 
+function $81525ac8bf6fc849$export$e6ff31bff12b7ff4(props) {
+    let logo = "";
+    switch(props.variant){
+        case "full-blue":
+            logo = new URL("grad-lockup-full-blue.eb3c8517.png", "file:" + __filename);
+            break;
+        case "full-white":
+            logo = new URL("grad-lockup-full-white.31320a3a.png", "file:" + __filename);
+            break;
+        case "blue":
+        default:
+            logo = new URL("grad-lockup-blue.7a681688.png", "file:" + __filename);
+    }
+    return /*#__PURE__*/ (0, $gXNCa$reactjsxruntime.jsx)("img", {
+        className: props.className || "",
+        alt: props.alt || "Graduate College Logo",
+        title: props.title || "University of Arizona Graduate College",
+        src: logo
+    });
+}
+
+
+
 function $0c146eb129836503$export$a06f1c675e846f6f() {
     return /*#__PURE__*/ (0, $gXNCa$reactjsxruntime.jsx)("footer", {
         id: "footer",
@@ -49,11 +73,9 @@ function $0c146eb129836503$export$a06f1c675e846f6f() {
                             className: "col-3 text-left",
                             children: /*#__PURE__*/ (0, $gXNCa$reactjsxruntime.jsx)("a", {
                                 href: "https://grad.arizona.edu/",
-                                children: /*#__PURE__*/ (0, $gXNCa$reactjsxruntime.jsx)("img", {
-                                    title: "The University of Arizona Graduate College",
-                                    alt: "The University of Arizona Graduate College",
+                                children: /*#__PURE__*/ (0, $gXNCa$reactjsxruntime.jsx)((0, $81525ac8bf6fc849$export$e6ff31bff12b7ff4), {
                                     className: "img-fluid center-block",
-                                    src: "https://grad.arizona.edu/ui/images/ua_lockups/uagc-lockup-full-blue.png"
+                                    variant: "full-blue"
                                 })
                             })
                         }),
@@ -264,6 +286,7 @@ function $0c146eb129836503$export$a06f1c675e846f6f() {
         })
     });
 }
+
 
 
 
