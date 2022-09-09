@@ -9,6 +9,14 @@ $ npm install
 $ npx parcel src/example/example.html
 ```
 
+## Build for production
+
+```
+$ npm run build
+```
+
+Then git add/commit/push etc
+
 ## Developed By
 
 The University of Arizona Graduate College

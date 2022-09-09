@@ -1,3 +1,4 @@
+/.example
 /.parcel-cache
 /dist/example*
 /node_modules
