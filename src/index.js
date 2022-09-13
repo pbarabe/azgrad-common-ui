@@ -1,4 +1,4 @@
-import { ArizonaBanner } from './azbanner'
+import { ArizonaBanner } from './arizonabanner'
 import { Footer } from './footer'
 import { Logo } from './logo'
 

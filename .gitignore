@@ -1,4 +1,6 @@
-/.example
-/.parcel-cache
-/dist/example*
-/node_modules
+.env.local
+.example
+.parcel-cache
+dist/example*
+node_modules
+scratch.*

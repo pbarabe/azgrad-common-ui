@@ -1,21 +1,23 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/react-in-jsx-scope */
 
+import { GradLockupBlue, GradLockupFullBlue, GradLockupFullWhite } from "./img/images"
+
 export function Logo (props) {
   let logo = ''
 
   switch (props.variant) {
     case 'full-blue':
-      logo = new URL('./img/grad-lockup-full-blue.png', import.meta.url)
+      logo = GradLockupFullBlue
       break
 
     case 'full-white':
-      logo = new URL('./img/grad-lockup-full-white.png', import.meta.url)
+      logo = GradLockupFullWhite
       break
 
     case 'blue':
     default:
-      logo = new URL('./img/grad-lockup-blue.png', import.meta.url)
+      logo = GradLockupBlue
   }
 
   return (

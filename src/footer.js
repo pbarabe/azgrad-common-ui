@@ -3,6 +3,8 @@ import { Logo } from './logo'
 import './style.css'
 
 export function Footer () {
+  const searchAction = process.env.SEARCH_URI || 'https://grad.arizona.edu/search'
+
   return (
     <footer id="footer" className="footer py-3 bg-warm-gray text-center">
       <div className="container py-4">
@@ -54,7 +56,7 @@ export function Footer () {
           </div>
 
           <div className="col-3 text-right">
-            <form method="GET" action="https://grad.arizona.edu/tools/search">
+            <form method="GET" action={ `${searchAction}` }>
               <div className="input-group">
                 <input
                   name="q"
